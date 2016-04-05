@@ -10,12 +10,14 @@
     <div class="why-we standalone">
         <h2>{{ why_we.title }}</h2>
 
+        <div class="list">
         <ol>
             {% for item in why_we.items %}
-                <li>{{ item }}</li>
+                <li>{{ item | raw }}</li>
             {% endfor %}
         </ol>
+        </div>
 
-        <h3>{{ why_we.footer }}</h3>
+        <h3>{{ why_we.footer | raw }}</h3>
     </div>
 {% endblock %}

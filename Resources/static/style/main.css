@@ -41,3 +41,7 @@ h1 {
 .why-we {
     height: 375px;
 }
+.why-we .list {
+    max-height: 276px;
+    overflow: scroll;
+}
