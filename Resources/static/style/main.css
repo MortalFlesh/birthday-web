@@ -18,7 +18,26 @@ body {
 
 .content {
     width: 800px;
-    padding-top: 40px;
     height: 916px;
-    margin-left: 400px;
+    padding-top: 20px;
+    margin-left: 450px;
+}
+
+h1 {
+    font-size: 56px;
+    color: #7a43b6;
+    font-family: "Comic Sans MS";
+}
+
+.london img {
+    height: 450px;
+
+}
+
+.standalone {
+    margin-top: 20px;
+}
+
+.why-we {
+    height: 375px;
 }

@@ -2,4 +2,20 @@
 
 {% block body %}
     <h1>Všechno nejlepší!</h1>
+
+    <div class="london">
+        <img src="./Resources/static/images/londyn.png" alt="">
+    </div>
+
+    <div class="why-we standalone">
+        <h2>{{ why_we.title }}</h2>
+
+        <ol>
+            {% for item in why_we.items %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ol>
+
+        <h3>{{ why_we.footer }}</h3>
+    </div>
 {% endblock %}
