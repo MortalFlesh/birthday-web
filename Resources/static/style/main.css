@@ -15,3 +15,10 @@ body {
     min-height: 956px;
     background: url("./../images/bg.jpg") no-repeat top left;
 }
+
+.content {
+    width: 800px;
+    padding-top: 40px;
+    height: 916px;
+    margin-left: 400px;
+}
