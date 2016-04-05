@@ -1,0 +1,12 @@
+{
+    "name": "mf/birthday-web",
+    "require": {
+        "twig/twig": "^1.24"
+    },
+    "authors": [
+        {
+            "name": "Petr Chromec",
+            "email": "mortal_flesh@seznam.cz"
+        }
+    ]
+}
