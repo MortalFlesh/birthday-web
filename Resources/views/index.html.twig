@@ -1,10 +1,11 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Všechno nejlepší!</h1>
+    <h1>{% block title %}Všechno nejlepší !!!{% endblock %}</h1>
 
-    <div class="london">
-        <img src="./Resources/static/images/londyn.png" alt="">
+    <div class="images">
+        <img src="./Resources/static/images/londyn.png" alt="" class="big">
+        <img src="./Resources/static/images/ori.png" alt="" class="float-right">
     </div>
 
     <div class="why-we standalone">
