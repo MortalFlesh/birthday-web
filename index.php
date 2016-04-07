@@ -7,5 +7,5 @@ $twig = new Twig_Environment($loader);
 
 
 echo $twig->render('index.html.twig', [
-    'why_we' => $whyWeDummy,
+    'why_we' => $whyWe,
 ]);
